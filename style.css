@@ -55,18 +55,20 @@
 }
 
 .main-text h1 {
+    font-family: "Montserrat", sans-serif;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5em;
     font-weight: bold;
     color: white;
     animation: slideIn 1.2s ease-in-out;
 }
 
 .main-text p {
+    font-family: "Mooli", sans-serif;
     font-size: 1.2rem;
     color: white;
     line-height: 1.6;
-    font-style: italic;
+    /* font-style: italic; */
     animation: fadeIn 2s ease-in-out;
 }
 
