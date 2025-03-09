@@ -5,26 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mooli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body background="bg2.jpg">
-    <div class="fixedBG"  style="background-image: url(./assets/png/BG.png); z-index: -5; margin: 0; padding: 0;position: fixed; min-width: 100vw;min-height: 100vh; background-size: contain ; background-position: center ;"  >
-        <div class="transperent" style="z-index: -1; background-color: #fff; opacity: 0.2; width: 100vw;height: 100vh; position:fixed; top: 0; "></div>
+<header>
+    <div class="leftnav">
+        <img src="./assets/aryannav/LOGO NEXURA_prev_ui (1).png" alt="" class="logo">
+        <h1 class="h11">NEXURA</h1>
     </div>
-    <!-- Navigation Bar -->
-    <nav class="NavigationBar">
-        <div class="navLogo">
-            <img src="./assets/png/LOGO NEXURA.png" alt="Nexura Logo">
-        </div>
-        <div class="navKiLinks">
-            <a href="index.html" class="navContent">Home</a>
-            <a href="about.html" class="navContent">About</a>
-            <a href="#events" class="navContent">Events</a>
-            <a href="#projects" class="navContent">Projects</a>
-            <a href="team.html" class="navContent">Team</a>
-            <a href="#contact" class="navContent">Contact</a>
-            <a href="#services" class="navContent">Services</a>
-        </div>
+    <div class="off-screen-menu">
+      <ul>
+          <li class="hamli"><a href="#" class="svg"><img src="./assets/aryannav/home_app_logo_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></a><a href="#" id="home">Home</a></li>
+          <li class="hamlj"><a href="./about.html" class="svg"><img src="./assets/aryannav/contacts_product_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></a><a href="./about.html" id="about">About</a></li>
+          <li class="hamlk"><a href="#" class="svg"><img src="./assets/aryannav/folder_open_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></a><a href="#">Events</a></li>
+          <li class="hamll"><a href="#" class="svg"><img src="./assets/aryannav/phone_in_talk_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></a><a href="#">Projects</a></li>
+          <li class="hamlm"><a href="./team.html" class="svg"><img src="./assets/aryannav/phone_in_talk_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></a><a href="#">Team</a></li>
+          <li class="hamln"><a href="#" class="svg"><img src="./assets/aryannav/phone_in_talk_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></a><a href="#">Contact</a></li>
+          <li class="hamlo"><a href="#" class="svg"><img src="./assets/aryannav/phone_in_talk_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png" alt=""></a><a href="#">Services</a></li>
+      </ul>
+    </div>
+    <h1 class="cen h11">NEXURA</h1>
+    
+    <nav class="algnav">
+    
+      <div class="ham-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
     </nav>
+    
+    <script src="./script.js"></script>
+    
+    <nav class="meraNav">
+        <ul class="meraUl">
+            <li class="meraLi"><a href="./index.html" class="al">HOME</a></li>
+            <li class="meraLi"><a href="./about.html" class="al activ">ABOUT</a></li>
+            <li class="meraLi"><a href="#" class="al">EVENTS</a></li>
+            <li class="meraLi"><a href="#" class="al">PROJECTS</a></li>
+            <li class="meraLi"><a href="./team.html" class="al">TEAM</a></li>
+            <li class="meraLi"><a href="#" class="al">CONTACT</a></li>
+            <li class="meraLi"><a href="#" class="al">SERVICES</a></li>
+         </ul>
+        </nav>
+    </header> 
     <div class="uiux-title">Welcome to Nexura's UI/UX Designing Portfolio!</div>
     <div class="uiux-text">Designing digital experiences that are smooth, interactive and user-friendly. Our project covers everything from app and websote interfaces to wireframing and prototyping, ensuring an effortless user journey</div>
     <div class="ourProject-title">Our Projects</div>

@@ -1105,13 +1105,13 @@ margin: 10px 10px;
     align-items:self-end;
 }
 
-/* img{
+.team-img{
     width: 320px;
     height: 300px;
     margin-left: 40px;
     margin-top: 30px;
     border-radius: 20px;
-} */
+} 
 .team-text1{
     background-color: #d14dcd;
     padding-bottom: 10px;
@@ -1129,7 +1129,7 @@ margin: 10px 10px;
     margin: 20px 35px;
 }
 
-.h1{
+.teama{
     padding: 20px 0;
     color: #7e15ab;
     text-align: center;
